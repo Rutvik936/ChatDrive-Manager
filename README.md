@@ -34,7 +34,7 @@ All credentials (Twilio, Google Drive, PDF.co, Cohere) are stripped out and repl
    - Cohere API
 3. Deploy and test with WhatsApp commands like:
 LIST /ProjectX
-DELETE /ProjectX/report.pdf
+DELETE /ProjectX/report.pdf/null
 MOVE /ProjectX/report.pdf /Archive
 SUMMARY /null/File_name.pdf/null
 
@@ -56,7 +56,7 @@ To import it into n8n:
 | Command                  | Format                                   | Description                              |
 |--------------------------|------------------------------------------|------------------------------------------|
 | **List files**           | `LIST /FolderName`                       | Lists all files in a folder              |
-| **Delete a file**        | `DELETE /FolderName/FileName.pdf`        | Deletes the specified file               |
+| **Delete a file**        | `DELETE /FolderName/FileName.pdf/null`   | Deletes the specified file               |
 | **Move a file**          | `MOVE /Folder/FileName.pdf /Target`      | Moves a file to another folder           |
 | **Summarize PDF**        | `Summary /null/File_name.pdf/null`       | Returns AI-based summary in bullets      |
 
