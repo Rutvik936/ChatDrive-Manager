@@ -50,8 +50,8 @@ You’ll need to create credentials in your n8n instance:
 
 | Command          | Format                                                | Description                                 |
 |------------------|-------------------------------------------------------|---------------------------------------------|
-| List Files       | `LIST  /null/null/null`                               | Lists all files                             |
-| Delete a File    | `DELETE /FolderName/FileName.pdf/null`                | Deletes the file at given path              |
+| List Files       | `list `                                               | Lists all files                             |
+| Delete a File    | `delete /FolderName/FileName.pdf/null`                | Deletes the file at given path              |
 | Move a File      | `MOVE /Folder/FileName.pdf /TargetFolder`             | Moves a file from one folder to another     |
 | Summarize PDF    | `SUMMARY /null/File_name.pdf/null`                    | Summarizes PDF content into bullet points   |
 
@@ -68,4 +68,5 @@ docker run -it --rm \
   -e N8N_BASIC_AUTH_USER=admin \
   -e N8N_BASIC_AUTH_PASSWORD=password \
   n8nio/n8n
-
+```
+[Watch Demo](https://youtu.be/Pvz6HTVCSXE)
