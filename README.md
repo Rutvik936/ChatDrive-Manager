@@ -69,5 +69,6 @@ docker run -it --rm \
   -e N8N_BASIC_AUTH_PASSWORD=password \
   n8nio/n8n
 ```
-## Watch Demo Video :
-[Watch Demo](https://youtu.be/Pvz6HTVCSXE)
+## 🎥 Demo Video
+
+[👉 Watch Demo](https://youtu.be/Pvz6HTVCSXE)
