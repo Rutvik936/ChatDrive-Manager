@@ -71,4 +71,4 @@ docker run -it --rm \
 ```
 ## 🎥 Demo Video
 
-[👉 Watch Demo](https://youtu.be/Pvz6HTVCSXE)
+👉[Watch Demo](https://youtu.be/Pvz6HTVCSXE)
