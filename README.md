@@ -18,7 +18,7 @@ An **n8n-based chatbot** that connects **WhatsApp (via Twilio)** with **Google D
 - 🧠 Summarization powered by **LangChain + Cohere AI**
 
 ---
-
+ 
 ---
 
 ## 🔐 Credentials Note
